@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no"name="format-detection"/>
+    <meta content="email=no"name="format-detection"/>
+    <title>电卡充值</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/weui.min.css">
+    <link rel="stylesheet" href="css/jquery-weui.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div class="balance-recharge">
+    <div class="searvh-sel">
+        <div class="search-inp">
+            <input type="text" class="address-inp" onfocus="javascript:this.value=''" onblur="javascript:this.value='请输入卡号'" value="请输入卡号">
+            <a href="购卡记录.html"><p class="top-chongzhi">购卡记录></p></a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="money">
+        <ul>
+            <li><p class="top">10元</p><p class="bottom">售价：9.88</p></li>
+            <li><p class="top">20元</p><p class="bottom">售价：19.88</p></li>
+            <li class="red"><p class="top">50元</p><p class="bottom">售价：49.48</p></li>
+            <li class="select"><p class="top">100元</p><p class="bottom">售价：98.46</p></li>
+            <li><p class="top">150元</p><p class="bottom">售价：143.98</p></li>
+            <li><p class="top">200元</p><p class="bottom">售价：190.88</p></li>
+        </ul>
+    </div>
+    <script>
+        $(function(){
+            $("ul").find("li").click(function(){
+                $(this).addClass('select').siblings().removeClass('select');
+
+            });
+        });
+    </script>
+    <div class="method">
+        <div class="top">
+            <p>选择支付方式：</p>
+        </div>
+        <form>
+            <div class="tagging">
+                <div class="weui-cells weui-cells_checkbox">
+                    <img src="img/wechat.jpg" alt="">
+                    <div class="weui-cell__bd">
+                        <p>微信支付</p>
+                    </div>
+                    <label class="weui-cell weui-check__label" for="s11">
+                        <div class="weui-cell__hd">
+                            <input type="radio" class="weui-check" name="sex" id="s11" value="1" checked>
+                            <i class="weui-icon-checked"></i>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="pro-info-link">
+        <a href="" class="link-btn start">支付</a>
+    </div>
+</div>
+</body>
+</html>

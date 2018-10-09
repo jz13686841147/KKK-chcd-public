@@ -1,0 +1,1135 @@
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td,i ,b,a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei','微软雅黑';
+}
+html {
+    font-size:10px;
+}
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+input{outline:none;}
+button{outline:none;}
+/*A*/
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+/*img*/
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+/*li*/
+ul,li {
+    list-style-type: none;
+}
+/*浮动*/
+.fl {
+    float: left;
+    display: inline;
+}
+.fr {
+    float: right;
+    display: inline;
+}
+.clear {
+    clear: both;
+}
+.money .red {
+    border:1px solid red;
+    color: red;
+}
+button {
+    border:none;
+    background: none;
+}
+
+
+/*绑定手机*/
+.body {
+    width:16.75rem;
+    margin:0 auto;
+    margin-top: 1.25rem;
+    border-radius: 20px;
+    background: #fff;
+    height:25rem;
+}
+.register-bg>p {
+    font-size: 18px;
+    color: #464646;
+    text-align: center;
+    padding-top: 2.75rem;
+}
+.register-con {
+    margin-top: 1.5rem;
+}
+.register-inp {
+    width: 11.97rem;
+    height: 1.4rem;
+    padding: 0.25rem 0.841rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 25px;
+}
+.tel-number {
+    padding-left: 1.5rem;
+    background: url(../img/user.png) no-repeat left center;
+    width: 90%;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    background-size: 20px auto;
+}
+.yzm {
+    padding-left: 1.5rem;
+    width: 50%;
+    float: left;
+    background: url(../img/password.png) no-repeat left center;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    color: #000;
+    background-size: 20px auto;
+}
+.fsyzm {
+    width: 4rem;
+    float: right;
+    height: 100%;
+    border: none;
+    background: none;
+    text-align: right;
+    font-size: 14px;
+    color: #999999;
+}
+.register-bg .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before {
+    content: "\EA06";
+    color: #00a0e9;
+}
+::-webkit-input-placeholder{
+    color: #999999;
+}
+.tagging {
+    width:13rem;
+    margin:0 auto;
+    font-size: 14px;
+}
+.weui-cell__bd p{
+    display: inline-block;
+    color: #999;
+}
+.weui-cell__bd a{
+    color: #00a0e9;
+    padding-left: 5px;
+}
+/*注册条款*/
+.demos-header {
+    text-align: center;
+    padding:35px 0 33px;
+    font-size: 1.5em;
+}
+/*充电点列表*/
+.searvh-sel {
+    margin-top: 5px;
+}
+.search-inp {
+    /*width: 80%;*/
+    padding: 5px 8px 5px 8px;
+    position: relative;
+}
+.xian {
+    position: absolute;
+    top: 12px;
+    left: 17px;
+    color: #fff;
+    background: url("../img/search.png");
+    background-size: 100% 100%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+.address-inp {
+    width: 62%;
+    height: 30px;
+    border:none;
+    border-radius: 5px;
+    padding-left: 10%;
+    font-size: 13px;
+    color: #666;
+    background: #f3f3f3;
+}
+.address-a {
+    display: block;
+    height: 30px;
+    width: 24%;
+    float: right;
+    font-size: 12px;
+    line-height: 30px;
+    /*text-align: center;*/
+    border-left:2px solid #f3f3f3;
+    background: url("../img/used.png") no-repeat center right;
+    background-size:22% 60%;
+}
+.address-a a {
+    color: #999;
+}
+.comp-list {
+    padding:5px 8px 0.75rem;
+    border-top: 8px solid #f3f3f3;
+}
+.comp-list .comp-top p {
+    color: #464646;
+    font-size: 16px;
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 2.5rem;
+}
+.comp-bottom {
+    margin-top: 10px;
+    color: #999;
+}
+.comp-bottom-left {
+    width: 78%;
+    display: inline-block;
+    color: #999;
+}
+.comp-bottom-left .address p {
+    font-size:0.7rem;
+}
+.comp-bottom-right {
+    float: right;
+    width: 20%;
+    height: 76px;
+    display: inline-block;
+    border-left: 2px solid #f3f3f3;
+}
+.comp-bottom-right p {
+    line-height: 76px;
+    text-align: center;
+    color: #464646;
+    font-size: 0.8rem;
+}
+.status {
+    margin-top: 25px;
+}
+.status li {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.status li p {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    padding:2px 7px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.kx {
+    border:1px solid #00a0e9;
+    color: #00a0e9;
+}
+.cd {
+    border:1px solid #06b03e;
+    color: #06b03e;
+}
+.gz {
+    border:1px solid #ff3202;
+    color: #ff3202;
+}
+/*充电点详情*/
+.placeholder {
+    position: relative;
+}
+.placeholder p{
+    color: #464646;
+}
+.weui-flex__item .placeholder div {
+    width: 18px;
+    height: 18px;
+    background-size: 100% 100%;
+    position: absolute;
+    top:11px;
+    right:23px;
+}
+.jiucuo {
+    background: url("../img/edit.png");
+}
+.tel {
+    background: url("../img/phone.png");
+}
+.go {
+    background: url("../img/go_position.png");
+}
+
+.bianhao li {
+    float: left;
+    /*height: 60px;*/
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.bianhao li p {
+    color: #464646;
+}
+.bianhao p {
+    font-size:0.6rem;
+}
+.bianhao li div {
+    width: 50px;
+    height: 50px;
+}
+.kx-bg {
+    background: url("../img/socket_normal.png");
+    background-size: 100% 100%;
+}
+.gz-bg {
+    background: url("../img/socket_bad.png");
+    background-size: 100% 100%;
+}
+.syz-bg {
+    background: url("../img/socket_charging.png");
+    background-size: 100% 100%;
+}
+.rate {
+    margin-top: 30px;
+    padding:8px;
+    padding-top: 0;
+}
+.rate p {
+    font-size:0.7rem;
+}
+.rate button {
+    width: 90%;
+    height: 50px;
+    background: #00a0e9;
+    border-radius: 25px;
+    color: #fff;
+    margin:30px 10px 20px;
+    border:none;
+    font-size: 0.8rem;
+}
+/*最近使用*/
+.footer p {
+    color: #999;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+.comp-bottom>p {
+    margin-top:25px;
+    font-size: 0.9em;
+}
+/*充电插座*/
+.comp-cz {
+    float: right;
+    width: 20%;
+    height: 6%;
+    display: inline-block;
+    border-left: 2px solid #f3f3f3;
+}
+.comp-cz p {
+    text-align: center;
+    color: #464646;
+    font-size: 1em;
+}
+.number p{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 0.9rem;
+}
+.number-left {
+    color: #464646;
+}
+.number-right {
+    color: #00a0e9;
+}
+.assf {
+    padding:1.2rem 8px;
+    border-bottom: 8px solid #f3f3f3;
+}
+.assf .top {
+    color: #464646;
+    font-size: 0.7rem;
+}
+.assf .in {
+    margin:1rem;
+}
+.assf .in .select {
+    border:1px solid #00a0e9;
+    background: #00a0e9;
+    color: #fff;
+}
+.assf .in p {
+    display: inline-block;
+    padding: 0.15rem 0.22rem;
+    border:1px solid #464646;
+    border-radius: 10px;
+    margin-right:1%;
+    font-size:0.7rem;
+}
+.assf>p {
+    color: #999;
+    font-size: 0.7rem;
+}
+.assf-footer {
+    padding:0px 8px;
+}
+.assf-footer p {
+    display: inline-block;
+    font-size:0.7rem;
+}
+.assf-footer .in {
+    margin-top: 1rem;
+}
+.assf-footer .in .select {
+    border: 1px solid #00a0e9;
+    background: #00a0e9;
+    color: #fff;
+}
+.assf-footer .in p {
+    display: inline-block;
+    padding: 0.35rem 0.22rem;
+    border:1px solid #464646;
+    border-radius: 10px;
+    margin-right:1%;
+    font-size:0.7rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    width:7rem;
+}
+.assf-footer .top {
+    border-bottom:1px solid #f3f3f3;
+    padding:15px 0;
+}
+.assf-footer .top-chongzhi {
+    float: right;
+    color: #00a0e9;
+}
+.zhifuradio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 10px 10px 0;
+}
+.weixin,.yue {
+    margin-left: 10px;
+    margin-top: -1px;
+}
+.pro-info-link {
+    text-align: center;
+    padding: 10px 0;
+}
+.link-btn {
+    width: 13.75rem;
+    margin: 2.5rem 1.5rem;
+    height: 2.5rem;
+    display: block;
+    background: #00a0e9;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 0.8rem;
+    margin-top: 5.7rem;
+}
+.assf-footer .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before,.all .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before,.method .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before,.all .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before{
+    content: "\EA06";
+    color: #00a0e9;
+}
+.assf-footer .tagging,.all .tagging {
+    width: 100%;
+}
+#popup {
+    position: fixed;
+    top:0;
+    background: rgba(0,0,0,.7);
+}
+.popup {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    z-index:1002;
+    overflow: auto;
+}
+.popup img {
+    display: block;
+    margin: 1em auto;
+}
+.popup p {
+    text-align: center;
+    color: #fff;
+    font-size: 1em;
+}
+/*纠错*/
+.all {
+    font-size:16px;
+    color: #464646;
+}
+.all .tagging {
+    padding:0px 12px;
+    border-bottom: 3px solid #f3f3f3;
+}
+.jiuzhen-address {
+    padding:20px 12px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.all .weui-cell__bd {
+    margin-right: 20px;
+}
+.all .weui-cells {
+   padding-bottom: 20px;
+}
+.all .searvh-sel {
+    padding:0px 12px;
+}
+.all .search-inp {
+    padding:0;
+    position: relative;
+    margin-top: 20px;
+}
+.all .address-inp {
+    width: 75%;
+    height: 40px;
+    border: none;
+    padding:0;
+    background: none;
+    font-size: 16px;
+    color: #999;
+    border-bottom: 1px solid #f3f3f3;
+}
+.all-address-a {
+    display: inline-block;
+    width: 20%;
+}
+.all-address-a  div {
+    width: 25px;
+    height: 25px;
+    background: url("../img/position.png");
+    background-size: 100% 100%;
+    margin:0 auto;
+}
+.all-address-a p {
+    text-align: center;
+}
+.qita {
+    padding:20px 12px;
+}
+.qita .weui-cells {
+    border:1px solid #f3f3f3;
+    border-radius: 15px;
+    padding:10px;
+}
+/*充电中*/
+.charging {
+    color: #fff;
+    margin-top: 4.75rem;
+}
+.charging p {
+   text-align: center;
+   font-size: 0.9rem;
+   margin-bottom: 1.11rem;
+}
+.charging .dizhi {
+    color: #e4e4e4;
+    font-size: 0.7rem;
+}
+.yuan {
+    width: 5.8rem;
+    height: 5.8rem;
+    border:2px solid #1274A3;
+    margin:0 auto;
+    margin-top:7rem;
+    border-radius: 50%;
+    position: relative;
+}
+.yuanxin {
+    width: 5rem;
+    height: 5rem;
+    background: #1274A3;
+    border-radius: 50%;
+    position: absolute;
+    top:0.4rem;
+    left:0.4rem;
+}
+.yuanxin .all-address-a {
+    position: absolute;
+    top: 0.8rem;
+    left: 0.6rem;
+    width: 4rem;
+    height: 4rem;
+    color: #e4e4e4;
+}
+.yuanxin .yuanxin-bg {
+    width: 30px;
+    height: 30px;
+    background: url("../img/charging.png");
+    background-size: 100% 100%;
+}
+.shichang {
+    margin-top: 1.35rem;
+    color: #e4e4e4;
+    font-size: 0.8rem;
+}
+/*搜索充电桩*/
+.search {
+    width: 95%;
+    margin:0 auto;
+    background: #f3f3f3;
+    border-radius: 10px;
+    margin-top:10px;
+}
+.search .search-inp {
+    padding: 0px 8px 0px 40px;
+    position: relative;
+}
+.search .address-inp {
+    width: 89%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1%;
+    font-size: 13px;
+    color: #666;
+    background: #f3f3f3;
+}
+.search .xian {
+    position: absolute;
+    top: 13px;
+    left: 15px;
+}
+.search-record {
+    margin-top: 20px;
+    border-top:1px solid #f3f3f3;
+    padding:3%;
+    color: #999;
+}
+.search-record p{
+    margin-bottom: 10px;
+}
+.search-record li {
+    display: inline-block;
+    padding:0px 8px;
+    border:1px solid #ccc;
+    border-radius: 10px;
+    margin:5px 2px 10px 0px;
+}
+.search-record a {
+    color: #999;
+}
+.search-button {
+    width: 50%;
+    margin:0 auto;
+    margin-top: 40px;
+}
+ .search-btn {
+     width: 100%;
+     height: 40px;
+     display: block;
+     background: #f3f3f3;
+     border-radius: 25px;
+     text-align: center;
+     line-height: 40px;
+     color: #999;
+     font-size: 16px;
+}
+ /*我的*/
+.user-head {
+    width: 100%;
+    height:10rem;
+    background: url("../img/bg_mine.jpg");
+    background-size: cover;
+    padding-top: 1rem;
+}
+.photo {
+    width: 3.75rem;
+    height: 3.75rem;
+    border:2.5px solid rgba(0,0,0,.2);
+    margin:0 auto;
+    border-radius: 50%;
+}
+.photo-in {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
+}
+.user-head p {
+    color: #fff;
+   text-align: center;
+    margin-top: 0.4rem;
+}
+.user-head .user-name {
+    font-size: 0.9rem;
+}
+.user-head .phone,.user-head .balance {
+    font-size: 0.7rem;
+    color: #e1e1e1;
+}
+.user-head .balance {
+    display: table;
+    padding: 0.2rem 0.5rem;
+    border-radius: 20px;
+    margin: 0.3rem auto;
+    background: rgba(0,160,233,0.8);
+}
+.user-body ul {
+    padding:0 1rem;
+    border-bottom: 5px solid #f3f3f3;
+}
+.user-body ul li {
+    padding:0.725rem 0;
+    border-bottom: 2px solid #f3f3f3;
+    color: #464646;
+    font-size: 0.8rem;
+}
+.user-body ul li div {
+    width: 0.95rem;
+    height: 0.95rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.user-body .user-body-1 {
+    background: url("../img/11.png");
+    background-size: cover;
+}
+.user-body .user-body-2 {
+    background: url("../img/12.png");
+    background-size: cover;
+}
+.user-body .user-body-3 {
+    background: url("../img/13.png");
+    background-size: cover;
+}
+.user-body .user-body-4 {
+    background: url("../img/14.png");
+    background-size: cover;
+}
+.user-body .user-body-5 {
+    background: url("../img/15.png");
+    background-size: cover;
+}
+.user-body .user-body-6 {
+    background: url("../img/16.png");
+    background-size: cover;
+}
+.user-body .user-body-7 {
+    background: url("../img/17.png");
+    background-size: cover;
+}
+.user-body .user-body-8 {
+    background: url("../img/18.png");
+    background-size: cover;
+}
+.user-body ul li i{
+    width: 0.7rem;
+    height: 0.7rem;
+    background: url("../img/right.png");
+    background-size: cover;
+    float: right;
+    color: #e1e1e1;
+    margin-top: 4px;
+}
+.user-body .border-none {
+    border:none;
+}
+/*余额充值*/
+.balance-recharge {
+    padding:0.5rem;
+    padding-top: 0;
+}
+.balance-recharge .top {
+    border-bottom: 2px solid #f3f3f3;
+    padding: 0.5rem 0;
+}
+.balance-recharge .top p {
+    display: inline-block;
+}
+.balance-recharge .top-chongzhi {
+    float: right;
+    color: #00a0e9;
+    font-size:0.8rem;
+}
+.money {
+    padding-top: 0.8rem;
+}
+.money li {
+    width: 47%;
+    height:2.45rem;
+    margin: 0.2rem 0 0.2rem 0.2rem;
+    display: inline-block;
+    text-align: center;
+    border:1px solid #00a0e9;
+    border-radius: 6px;
+    color: #00a0e9;
+    padding-top: 0.45rem;
+    position: relative;
+}
+/*--------------活动更改-------------------------*/
+.money li i {
+    position: absolute;
+    font-size:0.4rem;
+    width:1.6rem;
+    height: 1.6rem;
+    line-height: 1.5rem;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    top:-0.2rem;
+    right:-0.2rem;
+}
+/*--------------活动更改-------------------------*/
+.money li .top {
+    padding:0;
+    border:none;
+    font-size:0.85rem;
+}
+.money li .bottom {
+    font-size:0.6rem;
+}
+.money .select {
+    background: #00a0e9;
+    color: #fff;
+    border:1px solid #00a0e9;
+}
+/*--------------活动更改-------------------------*/
+.method {
+    margin-top: 1rem;
+}
+/*--------------活动更改-------------------------*/
+.method .top {
+    padding:0 0 0.75rem 0;
+}
+.method .top p {
+    font-size:0.7rem;
+}
+.method .tagging {
+    width:100%;
+}
+.method .weui-cells img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.method .weui-cell__bd p {
+    margin-top: 0.25rem;
+    color: #464646;
+}
+.method .weui-cell__hd {
+    margin-top: 0.25rem;
+}
+.method .weui-check__label {
+    float: right;
+}
+.method .weui-cell:before {
+    border:none;
+}
+.method .weui-cells_checkbox .weui-icon-checked:before {
+    font-size: 20px;
+}
+.balance-recharge .link-btn {
+    width: 92%;
+    margin: 50% 4% 0px;
+}
+/*电卡充值*/
+.balance-recharge .address-inp {
+    padding-left: 4%;
+    width: 68%;
+    font-size:14px;
+}
+/*充值记录*/
+.weui-tab li {
+    padding:0 15px 15px 15px;
+    color: #999;
+    font-size:0.7rem;
+    border-bottom: 4px solid #f3f3f3;
+}
+.weui-tab li div {
+    display: inline-block;
+}
+.weui-tab .tab-left {
+    width: 75%;
+    vertical-align: middle;
+}
+.weui-tab .tab-right {
+    width: 23%;
+    vertical-align: middle;
+}
+
+.weui-tab li p {
+    margin-top: 15px;
+}
+.weui-tab li .bold {
+    color: #464646;
+    font-size:0.9rem;
+}
+.weui-tab li .margin {
+    /*margin-bottom: 20px;*/
+    height:65px;
+    line-height: 65px;
+}
+/*充电记录*/
+.charging-history .weui-tab .tab-left {
+    width: 78%;
+    vertical-align: middle;
+}
+.charging-history .weui-tab .tab-right {
+    width: 20%;
+    vertical-align: middle;
+}
+.charging-history .weui-tab .tab-right p {
+    text-align: center;
+}
+.charging-history .weui-tab .tab-right div {
+    margin:65px 0px 0px 10px;
+    height: 45px;
+    line-height: 45px;
+    width: 45px;
+    text-align: center;
+    background: #00a0e9;
+    color: #fff;
+    border-radius: 50%;
+}
+.charging-history .weui-tab li .bold {
+    color: #464646;
+    font-size: 0.7rem;
+}
+.charging-history .weui-tab li {
+    font-size: 0.65rem;
+}
+.charging-history .daifukuan {
+    color: #00a0e9;
+}
+/*在线购卡*/
+.online-purchase {
+    padding:0.75rem 0.75rem 0 0.75rem;
+}
+.online-purchase img {
+    width: 100%;
+}
+.online-purchase>p {
+    text-align: center;
+    color: #999;
+    font-size:0.6rem;
+    margin-bottom: 0.9rem;
+}
+.online-purchase .zhu {
+    color: #464646;
+    font-size:0.8rem;
+    margin: 0.5rem;
+}
+.information .top {
+    border-bottom: 1px solid #f3f3f3;
+    border-top: 1px solid #f3f3f3;
+    padding: 15px 0;
+    margin-top: 18px;
+}
+.information p {
+    display: inline-block;
+    font-size:0.8rem;
+}
+.information .top-chongzhi {
+    float: right;
+    color: #00a0e9;
+}
+.information ul li {
+    padding:7px 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+.information ul li input{
+    padding-left: 1.1rem;
+    border: none;
+    width: 11rem;
+    font-size: 0.8rem;
+}
+.online-purchase .link-btn {
+    width: 16.75rem;
+    margin: 7% 2%;
+}
+/*代理加盟*/
+.agent {
+    padding:0 15px;
+}
+.agent .tagging {
+    width: 100%;
+}
+.agent ul li {
+    height: 2.15rem;
+    line-height: 2.15rem;
+    padding:0;
+}
+.agent .weui-cells {
+    margin-top: 0;
+}
+.agent .weui-check__label {
+    margin-left: 8px;
+}
+.agent .jiuzhen-address {
+    padding:0;
+    border-bottom:none;
+    display: inline-block;
+    height: 2.15rem;
+    line-height: 2.15rem;
+}
+.agent .weui-cells_checkbox .weui-check:checked + .weui-icon-checked:before {
+    content: "\EA06";
+    color: #00a0e9;
+}
+.agent .weui-cells_checkbox .weui-icon-checked:before {
+    font-size: 18px;
+}
+.agent>form>p {
+    padding:0.75rem;
+    font-size:0.7rem;
+    color: #999;
+    text-align: center;
+}
+.agent .link-btn {
+    width: 93%;
+    margin: 11rem 0.5rem;
+    margin-bottom: inherit;
+}
+.agent .weui-cell:before {
+    border-top: none;
+}
+/*购卡记录*/
+.purchase-card li {
+    padding: 15px;
+    color: #999;
+    font-size: 0.8rem;
+    border-bottom: 4px solid #f3f3f3;
+    position: relative;
+}
+.purchase-card li div {
+    display: inline-block;
+}
+.purchase-card li>p {
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 10px;
+    font-size: 0.7rem;
+    margin-bottom: 10px;
+}
+.purchase-card .tab-left {
+    width: 60%;
+}
+.purchase-card .tab-left img {
+    width: 75%;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.purchase-card .tab-right input {
+    width:70%;
+    padding:0.2rem 0 0.2rem 1.2rem;
+    background: url("../img/edit.png") left center no-repeat;
+    background-size: 1rem;
+    border:none;
+}
+.purchase-card .tab-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(4%);
+    padding-left: 1rem;
+}
+.purchase-card .tab-right div {
+    padding:5px 20px;
+    background-color: #00a0e9;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 1rem;
+}
+/*常见故障*/
+.common-fault {
+    padding: 20px 15px 0 15px;
+    color: #999;
+}
+.common-fault p {
+    border-top: 1px solid #f3f3f3;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+.common-fault .header {
+    color: #151515;
+    font-size:0.9rem;
+    margin-bottom:10px;
+    border:none;
+    padding:0;
+}
+.common-fault .header i {
+    display: inline-block;
+    width: 3px;
+    height:20px;
+    background-color: #00a0e9;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width:367px) {
+    .information ul li input {
+        width: 60%;
+    }
+}
+@media only screen and (max-width:325px) {
+    .money li {
+        /*width: 28%;*/
+    }
+}
+@media only screen and (max-width:320px) {
+    .bianhao li {
+        margin-left: 4%;
+    }
+    .money li {
+        /*width: 30%;*/
+        margin:5px 1px;
+    }
+    .money li .bottom {
+        font-size: 0.5rem;
+    }
+    .weui-tab li .margin {
+        height:56px;
+        line-height: 38px;
+    }
+    .weui-tab li .bold {
+        font-size: 0.7rem;
+    }
+    .weui-tab li {
+        font-size: 0.6rem;
+    }
+    .charging-history .weui-tab .tab-right {
+        width: 19%;
+    }
+    .charging-history .weui-tab .tab-left {
+        width: 79%;
+    }
+    .charging-history .weui-tab li .bold {
+        font-size: 0.2rem;
+    }
+    .information ul li input {
+        width: 55%;
+    }
+    .balance-recharge .link-btn {
+        margin: 38% 4% 0px;
+    }
+    .balance-recharge .address-inp {
+        width: 60%;left: 4%;
+    }
+}
+@media only screen and (max-width:235px) {
+    .money li {
+        width: 28%;
+    }
+}

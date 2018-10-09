@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no"name="format-detection"/>
+    <meta content="email=no"name="format-detection"/>
+    <title>余额充值</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/weui.min.css">
+    <link rel="stylesheet" href="css/jquery-weui.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+<div class="balance-recharge">
+    <div class="top">
+        <p>选择支付方式：</p>
+        <a href="充值记录.html"><p class="top-chongzhi">充值记录></p></a>
+    </div>
+    <div class="money">
+        <ul>
+            <li class="select"><i>9折</i><p class="top">10元</p><p class="bottom">活动优惠售价：9.00</p></li>
+            <li><i>8.8折</i><p class="top">20元</p><p class="bottom">活动优惠售价：17.60</p></li>
+            <li><i>8.6折</i><p class="top">30元</p><p class="bottom">活动优惠售价：25.80</p></li>
+            <li><i>8.5折</i><p class="top">50元</p><p class="bottom">活动优惠售价：42.50</p></li>
+        </ul>
+    </div>
+<script>
+    $(function(){
+        $("ul").find("li").click(function(){
+            $(this).addClass('select').siblings().removeClass('select');
+
+        });
+    });
+
+</script>
+    <div class="method">
+        <p style="display: block;font-size: 0.7rem;text-align: center;margin-bottom: 1rem">注：活动截止时间2018-09-31</p>
+        <div class="top">
+            <p>选择支付方式：</p>
+        </div>
+        <form>
+            <div class="tagging">
+                <div class="weui-cells weui-cells_checkbox">
+                    <img src="img/wechat.jpg" alt="">
+                    <div class="weui-cell__bd">
+                        <p>微信支付</p>
+                    </div>
+                    <label class="weui-cell weui-check__label" for="s11">
+                        <div class="weui-cell__hd">
+                            <input type="radio" class="weui-check" name="sex" id="s11" value="1" checked>
+                            <i class="weui-icon-checked"></i>
+                        </div>
+                    </label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="pro-info-link">
+        <a href="" class="link-btn start">支付</a>
+    </div>
+</div>
+</body>
+</html>
